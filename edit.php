@@ -25,7 +25,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             "id" => $id
         ]);
 
-        header('location:show.php?msg=' . urlencode("Changement effectué avec succès"));
+        header('location:show.php?msg=' . urlencode("Changement effectué avec succès 😁"));
     }
 }
 ?>
