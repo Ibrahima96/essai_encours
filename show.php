@@ -14,7 +14,7 @@ $rows = $requet->fetchAll(PDO::FETCH_OBJ);
     <h1 class="text-center text-2xl sm:text-3xl font-thin mt-10 mb-20">Tableau des Employers</h1>
 
     <section class="pt-10 pb-20 max-w-6xl mx-auto  rounded">
-        <a href="adduser.php" class="btn mb-4 font-thin btn-md px-8 bg-lime-200">Ajouter</a>
+        <a href="adduser.php" class="btn mb-4 font-thin btn-md px-8 bg-blue-300/25">Ajouter</a>
         <table class="w-full table base-200 table-zebra">
             <thead class="py-2">
                 <tr>
